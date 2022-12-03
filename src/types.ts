@@ -1,7 +1,7 @@
 import { ReactTestRendererJSON } from 'react-test-renderer';
 
 export interface IComponentDriver<T = any> {
-    container: HTMLElement;
+    wrapper: HTMLElement;
     render: (component: JSX.Element) => T;
     element: (selector: string) => HTMLElement;
     fire: (selector: string, event: Event) => void;

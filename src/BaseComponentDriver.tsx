@@ -27,7 +27,7 @@ export class BaseComponentDriver implements IComponentDriver {
         return instance.toJSON();
     }
 
-    get container() {
-        return this.element(`${this.name}-container`);
+    get wrapper() {
+        return this.element(`${this.name}-wrapper`);
     }
 }

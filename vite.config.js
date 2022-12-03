@@ -4,6 +4,8 @@ import dts from 'vite-plugin-dts';
 import { externals } from 'shared-base';
 import p from './package.json';
 
+const ANALYZE_BUNDLE = false;
+
 export default defineConfig({
     plugins: [dts({})],
     build: {
