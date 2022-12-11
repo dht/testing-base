@@ -1,17 +1,17 @@
 {
     "name": "testing-base",
-    "version": "0.0.4",
+    "version": "0.0.6",
     "private": false,
     "scripts": {
         "build": "tsc & vite build",
         "test": "jest"
     },
     "dependencies": {
+        "shared-base": "^0.0.32",
         "@testing-library/react": "^13.3.0",
         "react-test-renderer": "^18.2.0"
     },
     "devDependencies": {
-        "shared-base": "^0.0.27",
         "@rollup/plugin-commonjs": "^22.0.1",
         "@rollup/plugin-node-resolve": "^13.3.0",
         "@rollup/plugin-typescript": "^8.3.3",
