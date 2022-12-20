@@ -1,13 +1,13 @@
 {
     "name": "testing-base",
-    "version": "0.0.6",
+    "version": "0.4.0",
     "private": false,
     "scripts": {
         "build": "tsc & vite build",
         "test": "jest"
     },
     "dependencies": {
-        "shared-base": "^0.0.34",
+        "shared-base": "^0.4.0",
         "@testing-library/react": "^13.3.0",
         "react-test-renderer": "^18.2.0"
     },
